@@ -27,6 +27,7 @@ flutter:
   assets:
     - assets/images/shape.png
     - assets/images/logo.jpeg
+    - assets/images/splash_logo.png
 
   fonts:
     - family: Ubuntu
@@ -45,3 +46,7 @@ flutter_icons:
   ios: true
   remove_alpha_ios: true
   image_path: "assets/images/logo.jpeg"
+
+flutter_native_splash:
+  image: "assets/images/splash_logo.png"
+  color: "ffffff"
