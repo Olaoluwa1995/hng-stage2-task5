@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:mydata/compulsory-task/print_name_function.dart';
 import 'package:mydata/config/size-config.dart';
 import 'package:mydata/user_data_screen.dart';
 
 void main() {
   runApp(const MyApp());
+  CompulsoryTask.printName();
 }
 
 class MyApp extends StatelessWidget {
